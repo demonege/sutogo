@@ -1,10 +1,8 @@
 TYPO3 CMS
 =========
 
-[![Build Status](https://travis-ci.org/TYPO3/TYPO3.CMS.svg?branch=master)](https://travis-ci.org/TYPO3/TYPO3.CMS)
-
 TYPO3 is an open source PHP based web content management system released
-under the GNU GPL. TYPO3 is copyright (c) 1999-2015 by Kasper Skaarhoj.
+under the GNU GPL. TYPO3 is copyright (c) 1999-2013 by Kasper Skaarhoj.
 
 This document provides a basic introduction to TYPO3.
 
@@ -47,7 +45,7 @@ TYPO3 System requirements
 -----------------------------
 
 TYPO3 is based upon PHP and uses a MySQL database. For more information
-regarding these requirements see the [INSTALL.md](INSTALL.md) file in this folder.
+regarding these requirements see the INSTALL.md file in this folder.
 
 Using the Database Abstraction Layer (DBAL) allows one to use TYPO3 with other
 Database Management Systems, like PostgreSQL, Oracle and MSSQL.
@@ -58,30 +56,33 @@ TYPO3 resources
 Here is an overview of the most important TYPO3 resources to help you get
 started:
 
+### Text files bundled in this package
+
+* README.md: This file, provides a basic overview on the product and
+  points to important resources.
+
+* INSTALL.md: System requirements to install and use TYPO3, the basic
+  installation instructions and information about upgrading an existing
+  installation to the new version.
+
+* NEWS.md: An overview of changes that were made in this particular TYPO3
+  release. More in-depth information can be found in the corresponding
+  release announcements.
+
 ### Get more information
 
-* https://typo3.org is the main project website. It provides up to
+* http://typo3.org is the main project website. It provides up to
   date official news, information about events, access to downloading the
   products and extensions.
 
-* https://wiki.typo3.org is a collaborative wiki, providing access to
+* http://wiki.typo3.org is a collaborative wiki, providing access to
   all kind of information around the TYPO3 ecosphere.
 
-* https://docs.typo3.org/: TYPO3 is one of the most thoroughly
+* http://www.typo3.org/documentation: TYPO3 is one of the most thoroughly
   documented OpenSource products around, with manuals covering basic
   tutorials, TypoScript, administration, development, core structure, etc.
   You should make the time to locate the various documents, and read those
   that apply to the work you want to do.
-
-### Chat with us
-
-The TYPO3 team is using a tool called Slack to openly communicate with each
-other and with the public. Several teams use Slack as a way to communicate
-internally and most channels are a welcome place for you to join and get
-yourself involved.
-
-* Register: https://forger.typo3.org/slack/
-* Slack: https://typo3.slack.com/
 
 ### Exchange information, get help
 
@@ -89,28 +90,28 @@ The community and all TYPO3 teams communicate through newsgroups, which can
 also be accessed through mailing lists and forums. Any of these three ways
 provide access to the same communication channels:
 
-* Forum (Web): https://forum.typo3.org/
-* Mailing Lists (Mail): https://typo3.org/support/mailing-lists/
+* Forum (Web): http://forum.typo3.org/
+* Mailing Lists (Mail): http://typo3.org/support/mailing-lists/
 * Newsgroups (NNTP): news://lists.typo3.org/
 
-Contributing
-------------
-
-If you want to contribute to the TYPO3 CMS source code, take a look at our
-Contributors Walkthrough and Review System:
-
-* https://wiki.typo3.org/CWT
-* https://review.typo3.org/
-
-The [repository at GitHub](https://github.com/TYPO3/TYPO3.CMS) is a
-synchronized mirror of the primary TYPO3 CMS core git repository:
-
-* https://git.typo3.org/Packages/TYPO3.CMS.git
+### Participate in the development
 
 If you want to file a bug report, maintain your own extension using our
 infrastructure (Git, Issue Tracker, Wiki, etc), take a look at:
 
-* https://forge.typo3.org
+* http://forge.typo3.org
+
+If you want to contribute to the TYPO3 CMS source code, take a look at our
+Contributors Walkthrough:
+
+* http://wiki.typo3.org/CWT
+
+### Chat with us
+
+Several teams use IRC as a way to communicate internally and most channels
+are a welcome place for you to join and get yourself involved.
+
+* IRC: http://typo3.org/support/irc-chat/
 
 Final notes
 -----------
@@ -135,9 +136,9 @@ The decisions will be made transparent to the community and especially the
 supporting members. Your funds will also serve for other purposes as laid
 out in the bylaws.
 
-* Donate: https://typo3.org/donate
+* Donate: http://typo3.org/donate
 * Become a member of the TYPO3 Association:
-  https://typo3.org/association/membership/levels/
+  http://association.typo3.org/association/join-now/
 
 Copyleft
 --------
