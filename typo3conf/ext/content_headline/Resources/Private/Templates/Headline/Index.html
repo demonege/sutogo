@@ -1,0 +1,14 @@
+{namespace nb=Sutogo\Base\ViewHelpers}
+{namespace v=FluidTYPO3\Vhs\ViewHelpers}
+
+<section id="c{contentUid}" class="content-headline" nb-component="show-in-viewport" animation="fade-in">
+    <div class="background-wrapper text-align-{textAlign}"
+         style="
+            {f:if(condition: backgroundColor, then: 'background-color: {backgroundColor};')}
+            {f:if(condition: backgroundImage, then: 'background-image: url({v:uri.image(src:backgroundImage.uid, treatIdAsReference: 1)});')}
+            {f:if(condition: fontColor, then: 'color: {fontColor};')}
+            {f:if(condition: backgroundStyle, then: '{backgroundStyle}')}
+            ">
+        <h2>{header}</h2>
+    </div>
+</section>

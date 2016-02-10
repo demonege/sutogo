@@ -1,0 +1,12 @@
+config.tx_extbase {
+    persistence {
+        classes {
+            Sutogo\ContentProduct\Domain\Model\Content {
+                mapping {
+                    tableName = tt_content
+                    recordType =
+                }
+            }
+        }
+    }
+}

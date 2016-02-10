@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2014-11-06T10:25:21Z">
+        <header>
+            <generator>LFEditor</generator>
+        </header>
+        <body>
+            <trans-unit id="press_list.title" xml:space="preserve">
+                <source>press List-Plugin</source>
+            </trans-unit>
+            <trans-unit id="press_list.description">
+                <source>Inhaltselement press List-Plugin</source>
+            </trans-unit>
+            <trans-unit id="press_list.headerBackendLayout">
+                <source>press List-Plugin</source>
+            </trans-unit>
+            <trans-unit id="press_detail.title" xml:space="preserve">
+                <source>press Detail-Plugin</source>
+            </trans-unit>
+            <trans-unit id="press_detail.description">
+                <source>Inhaltselement press Detail-Plugin</source>
+            </trans-unit>
+            <trans-unit id="press_detail.headerBackendLayout">
+                <source>press Detail-Plugin</source>
+            </trans-unit>
+            <trans-unit id="press_related.title" xml:space="preserve">
+                <source>press Related-Plugin</source>
+            </trans-unit>
+            <trans-unit id="press_related.description">
+                <source>Inhaltselement press Related-Plugin</source>
+            </trans-unit>
+            <trans-unit id="press_related.headerBackendLayout">
+                <source>press Related-Plugin</source>
+            </trans-unit>
+            <trans-unit id="press_filter.title" xml:space="preserve">
+                <source>press Filter-Plugin</source>
+            </trans-unit>
+            <trans-unit id="press_filter.description">
+                <source>Inhaltselement press Filter-Plugin</source>
+            </trans-unit>
+            <trans-unit id="press_filter.headerBackendLayout">
+                <source>press Filter-Plugin</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

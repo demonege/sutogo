@@ -1,0 +1,36 @@
+<fieldset style="margin-top: 15px;">
+    <legend>Text</legend>
+    <p>{header}</p>
+
+    <p>Text align: {textAlign}</p>
+</fieldset>
+
+<fieldset style="margin-top: 15px;">
+    <legend>Layout</legend>
+
+    <p>
+        <span style="border: 1px solid #000000; background-color: {backgroundColor};">&nbsp;&nbsp;&nbsp;</span>
+        Background color [{backgroundColor}]
+    </p>
+
+    <p>
+        <span style="border: 1px solid #000000; background-color: {fontColor};">&nbsp;&nbsp;&nbsp;</span>
+        Font color [{fontColor}]
+    </p>
+
+    <f:if condition="{backgroundImage}">
+        <p>
+            Background image:<br />
+            <img src="{f:uri.image(src:backgroundImage.uid, treatIdAsReference: 1, maxWidth:200)}"
+                 alt="{backgroundImage.alternative}"
+                 title="{backgroundImage.title}">
+        </p>
+    </f:if>
+
+    <f:if condition="{backgroundStyle}">
+        <p>
+            Background style:<br />
+            {backgroundStyle}
+        </p>
+    </f:if>
+</fieldset>

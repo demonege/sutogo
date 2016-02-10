@@ -1,0 +1,31 @@
+<T3DataStructure>
+    <meta>
+        <langDisable>1</langDisable>
+    </meta>
+    <ROOT>
+        <type>array</type>
+        <el>
+            <settings.language>
+                <TCEforms>
+                    <label>LLL:EXT:press/Resources/Private/Language/locallang_db.xlf:tx_press.flexform.language</label>
+                    <config>
+                        <type>select</type>
+                        <items type="array">
+                            <numIndex index="0" type="array">
+                                <numIndex index="0">LLL:EXT:press/Resources/Private/Language/locallang_db.xlf:tx_press.flexform.language.0</numIndex>
+                                <numIndex index="1">0</numIndex>
+                            </numIndex>
+                            <numIndex index="1" type="array">
+                                <numIndex index="0">LLL:EXT:press/Resources/Private/Language/locallang_db.xlf:tx_press.flexform.language.1</numIndex>
+                                <numIndex index="1">1</numIndex>
+                            </numIndex>
+                        </items>
+                        <maxitems>1</maxitems>
+                        <size>1</size>
+                        <default>0</default>
+                    </config>
+                </TCEforms>
+            </settings.language>
+        </el>
+    </ROOT>
+</T3DataStructure>
